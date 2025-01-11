@@ -668,4 +668,15 @@ section {
     }
 }
 
+.input-control.i-c-2 {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  iframe {
+    max-width: 100%;
+    width: 100%; /* Important: Set width to 100% */
+    display: block; /* Prevents extra space below the iframe */
+    border: none; /* Removes default iframe border */
+}
 @import './media';
